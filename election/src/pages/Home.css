@@ -1,0 +1,125 @@
+/* src/pages/Home.css */
+
+body, html {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background-color: #1a4a87;
+  color: white;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 40px;
+  margin-right: 10px;
+}
+
+.navbar-links a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.header {
+  position: relative;
+  text-align: center;
+  color: white;
+  padding: 50px 0;
+  background-color: #004080; /* Background color for the header */
+}
+
+.center-title {
+  text-align: center;
+  margin: 20px 0;
+  background: none; /* Ensures no background */
+  border: none; /* Removes any borders */
+  padding: 0; /* Removes padding that might create a box effect */
+}
+
+.center-title h1 {
+  font-size: 36px; /* Adjust the font size */
+  color: rgb(243, 228, 228); /* Text color */
+  font-weight: bold; /* Bold font */
+  margin: 0; /* Removes any extra margin */
+  background: none; /* Ensures no background color */
+  border: none; /* Removes any border */
+  display: inline-block; /* Prevents block-level elements from causing extra space */
+  text-transform: uppercase; /* Optional: Makes text uppercase */
+}
+
+
+
+/* Section Links with continuous color change */
+.section-links {
+  display: flex;
+  justify-content: space-around;
+  background-color: #f7f7f7;
+  padding: 15px 0;
+  border-top: 2px solid #ddd;
+  border-bottom: 2px solid #ddd;
+  animation: colorChange 5s infinite alternate;
+}
+
+.section-item {
+  text-align: center;
+  color: #1a4a87;
+  font-weight: bold;
+  font-size: 18px;
+  transition: transform 0.3s ease;
+}
+
+.section-item:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+/* Animation for continuous color change */
+@keyframes colorChange {
+  0% {
+    background-color: #e74c3c; /* Red */
+  }
+  25% {
+    background-color: #f39c12; /* Yellow */
+  }
+  50% {
+    background-color: #2ecc71; /* Green */
+  }
+  75% {
+    background-color: #3498db; /* Blue */
+  }
+  100% {
+    background-color: #9b59b6; /* Purple */
+  }
+}
+
+.main-sections {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.main-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 180px;
+}
+
+.main-icon {
+  font-size: 30px;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,77 @@
+body {
+    background-image: url('https://img.freepik.com/free-vector/gradient-background-vector-spring-colors_53876-117271.jpg'); /* Replace with the actual path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .admin-container {
+    background: rgba(255, 255, 255, 0.9); /* White with slight transparency */
+    border-radius: 12px;
+    padding: 25px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    max-width: 900px;
+    margin: 50px auto; /* Adds spacing from the top */
+    text-align: center;
+  }
+  
+  h2 {
+    font-weight: bold;
+    color: #222;
+    margin-bottom: 20px;
+    font-size: 26px;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px; /* Adds spacing between buttons */
+    margin-bottom: 30px;
+  }
+  
+  button {
+    background-color: #007bff; /* Bootstrap primary color */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #0056b3; /* Darker blue */
+  }
+  
+  .accordion-header {
+    font-weight: bold;
+    font-size: 18px;
+    color: #0056b3; /* Blue */
+  }
+  
+  .accordion-item {
+    border: none;
+    margin-bottom: 15px;
+  }
+  
+  .accordion-body {
+    background: rgba(240, 240, 240, 0.9);
+    border-radius: 5px;
+    padding: 15px;
+  }
+  
+  ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  li {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  

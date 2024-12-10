@@ -1,0 +1,41 @@
+.admin-home {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url('data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAJAAugMBIgACEQEDEQH/xAAaAAADAQEBAQAAAAAAAAAAAAABAgMABAUH/8QAHBABAQEBAQEBAQEAAAAAAAAAAAECERIDIlIT/8QAGgEAAwEBAQEAAAAAAAAAAAAAAQIDBAAFBv/EABwRAQEBAQEBAQEBAAAAAAAAAAABAhESAyETMf/aAAwDAQACEQMRAD8A+wfT6ObWm3pHW0LXoYwf2HtK6LaVSZdE2afRzSnzotrrle/QM7Smh6n0vl0ZqkR+dWy7qejdTtPaSj0sBLcVtT1VcnyQOjwPKshxjdbgyH4ldtFJCyGg+S36On43y681wZ06MfQfNZ97ldMo9c/sn+g+Urp5u6labWkrWR6+Y2i9DVaFtUkHp4SQ5LQpjypynzCUlW+a+UM/lbASo6NS0/kuqaEhLE6tz0S5WzTyk43BtCVbM6Xe+NYU1DyvMsevoMpySHPInd9HNU9JwR4nae7D0VujwOuDVJT6JXmvoIU2ShmhTKw8LlTidJQkPmDnJ5lOp2mzlTISH4WRK03W8jI0qqZZltZMWmld1HeC8V3pLTV80vpWtBhjVGXQ8HgxqYgN0KFggPQGM4HGWmlavO4+iJYHD2FgWD0+VMJRXBLkmloplI0qViNi+YaRP56U6CVMWsFo2hxi2taTo5/11HdI1oNuGbf+tY0jdGVeJ2G4DdCnidgszGJxuAMFwuCNQgsD6EAybjcCwetFMJjKFLYt6NlDNXzUNE1OK5HpJTJaSp80aSUellLwS6Yumj5Z6Td/C9altC1vzGawa0pOtKtIWxbJkpT+nJ2G41aVq7oeWlN0sh+BdO8vNkNYPG4y+XuXcKNDo2u471CUYNy0TsHsCOj51KRTCOi6/VpTROU2UbOpU5emJdHzjqfR9F3oKTVbPljgWdal1RLWqRK5aU0TE3Sz52nlPCZhsp60N+SkNmEh5UNfThZhSQ/kmKqT+vTfzeXYFV3hPy0cW9kaH4EgUfTB5NIPEdxSaDMUxkMxXLLq/pvTeTZjQXSI602qnTbpJWjOeElL0ptEtaMC1CRpR6rKLUYHVMYC3h4GTTJuDIzb0YZlpG6HWLe70vmHlP3X9I9b0T2Fy2iah9o2vbsYs0KHWtJdF8rZpq3tK1i6+fVpxabb2lK3UJ8f1SOnG1PTmzofbv5/qWp+q/TRPRLQh+cdMmtAKBpTcFgtGU3R4p88+3VJ+HP866PnUfpoLG1kOHsLxl1t0pNQlNqkY9a/TweiBuALfRDau6luvo+PMzU+kpultHi0rdLaPQruKdN0ZE+mlC5Uh5TQkrWk8u501rShKxKaZbVbLWARSZGjmgMJafyrl0YQ+UdPzS0lv8OFHoaZ9RNGlPQ4zcUCQzcEZAf/2Q=='); /* Replace with the correct image path */
+    background-size: cover;
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 30px;
+}
+
+.modules {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.module {
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.module:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: black;
+}
+
+.module-link {
+    text-decoration: none;
+    color: inherit;
+    font-size: 1.2rem;
+}

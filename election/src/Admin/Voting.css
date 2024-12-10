@@ -1,0 +1,75 @@
+/* src/Admin/Voting.css */
+body {
+    background: linear-gradient(120deg, #f6d365 0%, #cc9e93 100%);
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .voting-page {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 40px;
+    border: 2px solid #fff;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    background-color: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(10px);
+  }
+  
+  .voting-page h1 {
+    text-align: center;
+    color: #333;
+    font-size: 3rem;
+    margin-bottom: 25px;
+  }
+  
+  .error-message {
+    color: red;
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+  }
+  
+  .handicap-toggle {
+    display: block;
+    margin: 25px 0;
+    font-size: 1.2rem;
+  }
+  
+  .voting-form .form-group {
+    margin-bottom: 25px;
+  }
+  
+  .voting-form label {
+    display: block;
+    margin-bottom: 15px;
+    font-size: 1.4rem;
+  }
+  
+  .voting-form select {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1.2rem;
+  }
+  
+  .submit-button {
+    width: 100%;
+    padding: 20px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.5rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-button:disabled {
+    background-color: #999;
+  }
+  
+  .submit-button:hover:not(:disabled) {
+    background-color: #218838;
+  }
+  

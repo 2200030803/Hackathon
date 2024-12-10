@@ -1,0 +1,75 @@
+.results-container {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    padding: 20px;
+    min-height: 100vh;
+    background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/324a0d39-9c16-4e8d-a4fe-1c9aee5290ad/df941iz-02ca2842-7988-4e52-981c-f7cf4cd764b4.png/v1/fill/w_1013,h_569,q_80,strp/pastel_clouds___aesthetic_wallpaper_by_waterlemonppy_df941iz-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTY5IiwicGF0aCI6IlwvZlwvMzI0YTBkMzktOWMxNi00ZThkLWE0ZmUtMWM5YWVlNTI5MGFkXC9kZjk0MWl6LTAyY2EyODQyLTc5ODgtNGU1Mi05ODFjLWY3Y2Y0Y2Q3NjRiNC5wbmciLCJ3aWR0aCI6Ijw9MTAxMyJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.bibXbbppT1Z-E-XoOsmGvToF1KMOIbE40GZlZcw_0tY'); /* Add the path to your background image here */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  header h1 {
+    font-size: 3em;
+    background: rgba(255, 255, 255, 0.8);
+    color: #333;
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+  }
+  
+  .stats {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+  }
+  
+  .stat-card {
+    background: rgba(255, 255, 255, 0.9);
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 250px;
+  }
+  
+  .stat-card h3 {
+    margin-bottom: 10px;
+    font-size: 1.5em;
+    color: #555;
+  }
+  
+  .stat-card p {
+    font-size: 2em;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .charts {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .chart {
+    width: 45%;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .large-chart {
+    height: 500px; /* Larger chart height */
+  }
+  
+  .chart h3 {
+    text-align: center;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  

@@ -1,0 +1,60 @@
+/* Report.css */
+
+/* Container for the entire report page */
+.report-page {
+    margin: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Tab Navigation Styles */
+  .tab-navigation {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  .tab-navigation button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #f1f1f1;
+    border: 2px solid #ccc;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .tab-navigation button:hover {
+    background-color: #ddd;
+  }
+  
+  .tab-navigation button.active {
+    background-color: #4caf50;
+    color: rgb(221, 191, 191);
+  }
+  
+  /* Styling for each report section */
+  .report-section {
+    margin-top: 20px;
+  }
+  
+  .report-section ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .report-section li {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+  }
+  
+  .report-section h2 {
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .report-section p {
+    color: #666;
+    font-size: 18px;
+  }
+  

@@ -1,0 +1,56 @@
+.candidates-container {
+    background-image: url("https://media.istockphoto.com/id/1179215846/vector/multicolored-pastel-abstract-background-light-gradient-diffused-white-purple-pink-turquoise.jpg?s=612x612&w=0&k=20&c=e_G8Pm-M2ZPg156CSonD7nJHtiRZcm-YGmI6KE7IeE4="); /* Add a relevant background image */
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    min-height: 100vh;
+    color: white;
+    text-align: center;
+  }
+  
+  .candidates-title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  }
+  
+  .candidates-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .candidate-card {
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+  }
+  
+  .candidate-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .candidate-photo {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .candidate-info {
+    padding: 10px;
+  }
+  
+  .candidate-info h2 {
+    font-size: 1.5rem;
+    margin: 10px 0 5px;
+  }
+  
+  .candidate-info p {
+    font-size: 1.2rem;
+    color: #ccc;
+  }
+  
